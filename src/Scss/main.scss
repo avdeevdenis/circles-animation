@@ -1,0 +1,156 @@
+$actions-height: 90px;
+
+body {
+	background-image: url('../Images/white-scratone.png');
+	font-family: 'Comfortaa', cursive;
+}
+
+.component {
+	/* фолбэк для браузеров, которые не поддерживают пользовательские свойства */
+	height: calc(100vh);
+	height: calc(var(--vh, 1vh) * 100);
+}
+
+.template {
+	height: calc(100% - #{$actions-height});
+
+	max-width: 1600px;
+	margin: 0 auto;
+
+	position: relative;
+	overflow: hidden;
+}
+
+.actions {
+	height: $actions-height;
+
+	border-top: 1px dashed silver;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	padding: 0 15px;
+
+	&__input {
+		&-count,
+		&-size {
+			width: 100%;
+			max-width: 500px;
+
+			user-select: none;
+
+			position: relative;
+			top: 3px;
+		}
+
+		&-count {
+			margin-right: 20px;
+		}
+
+		&-size {
+			margin-left: 20px;
+		}
+	}
+
+	&__text {
+		&-count,
+		&-size {
+			text-align: center;
+			font-size: 13px;
+
+			position: relative;
+			top: 3px;
+
+			display: flex;
+			justify-content: space-between;
+
+			margin-left: -4px;
+			margin-right: -7px;
+		}
+	}
+}
+
+.dot {
+	height: 20px;
+	width: 20px;
+
+	background: #000;
+	border-radius: 50%;
+
+	will-change: transform;
+	transition:
+		.7s transform ease,
+		.35s width ease,
+		.35s height ease,
+		.65s background-color linear;
+
+	position: absolute;
+
+	// background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	// background-size: 400% 400%;
+	// animation: gradientBG 15s ease infinite;
+}
+
+// @keyframes gradientBG {
+// 	0% {
+// 		background-position: 0% 50%;
+// 	}
+// 	50% {
+// 		background-position: 100% 50%;
+// 	}
+// 	100% {
+// 		background-position: 0% 50%;
+// 	}
+// }
+
+.device-info {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+
+	background: lighten(lightblue, 17);
+	text-align: center;
+	display: none;
+
+	align-items: center;
+	padding: 0 5px;
+
+	z-index: 1;
+}
+
+.btn {
+	cursor: pointer;
+
+	min-width: 140px;
+}
+
+.rc-slider {
+	padding: 10px 0;
+	cursor: pointer;
+
+	&-step {
+		background: #007bff;
+	}
+
+	&-handle {
+		width: 20px;
+		height: 20px;
+
+		margin-top: -8px;
+
+		&,
+		&:active,
+		&:hover,
+		&:focus {
+			border-color: #007bff;
+		}
+
+		&:active,
+		&:focus {
+			box-shadow: 0 0 5px #007bff;
+		}
+	}
+}

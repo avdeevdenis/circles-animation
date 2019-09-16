@@ -1,0 +1,47 @@
+$breakpoint-1: 900px;
+$breakpoint-2: 750px;
+$breakpoint-3: 600px;
+
+$actions-height-1: 70px;
+$actions-height-2: 65px;
+$actions-height-3: 60px;
+
+@mixin computed-elements-size($actions-height) {
+	.template {
+		height: calc(100% - #{$actions-height});
+	}
+
+	.actions {
+		height: $actions-height;
+	}
+}
+
+// При размере экрана меньше $screen-width высота блока с кнопкой становится = $actions-height
+@mixin adaptive-size-by-screen-width($screen-width, $actions-height) {
+    @media screen and (max-width: $screen-width) {
+        @include computed-elements-size($actions-height); 
+    }
+}
+
+@include adaptive-size-by-screen-width($breakpoint-1, $actions-height-1);
+@include adaptive-size-by-screen-width($breakpoint-2, $actions-height-2);
+@include adaptive-size-by-screen-width($breakpoint-3, $actions-height-3);
+
+@media screen and (max-width: $breakpoint-3) {
+    .btn {
+        font-size: 14px;
+	}
+}
+
+@media screen and (max-width: $breakpoint-1) {
+	.actions {
+		padding-bottom: 8px;
+	}
+}
+
+@media screen and (orientation: portrait) {
+    .device-info {
+		display: flex;
+		justify-content: center;
+	}
+}

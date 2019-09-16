@@ -1,21 +1,31 @@
 {
   "name": "circles-animation",
   "version": "0.1.0",
+  "author": "Avdeev Denis",
+  "main": "index.js",
   "private": true,
   "dependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "rc-slider": "^8.7.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "2.0.3"
   },
+  "homepage": "https://avdeevdenis.github.io/circles-animation",
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
     "react-bootstrap": "^1.0.0-beta.12"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "go": "npm run predeploy && npm run deploy"
   },
   "browserslist": [
     ">0.2%",

@@ -1,0 +1,21 @@
+$offset: .06;
+$step: 0.03;
+$dots-count: 16;
+
+$half: $dots-count / 2;
+@for $i from 1 through $dots-count {
+	.dot:nth-child(#{$i}) {
+		$transition: '';
+
+		@if ($i > $half) {
+			$transition: #{($i + $half) * $step + $offset}s;
+		} @else {
+			$transition: #{$i * $step * 2 + $offset}s;
+		}	
+
+		transition: $transition transform ease-in-out, 
+			$transition / 2 width ease-in-out,
+			$transition / 2 height ease-in-out;
+		transform: translate3d(0, 0, 0);
+	}
+}
