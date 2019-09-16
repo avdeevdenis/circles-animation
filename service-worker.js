@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/circles-animation/precache-manifest.1f91ba6f01506461f623b8f2e15c17ff.js"
+  "/circles-animation/precache-manifest.ab2e6f3ce17f55312458fd9650da1434.js"
 );
 
 workbox.clientsClaim();
