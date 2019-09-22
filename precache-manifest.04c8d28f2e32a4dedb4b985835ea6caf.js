@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/circles-animation/static/js/runtime~main.759b1038.js"
   },
   {
-    "revision": "9680bc6c5c878a84a8a6",
-    "url": "/circles-animation/static/js/main.9680bc6c.chunk.js"
+    "revision": "71e77860d03ec1b1224f",
+    "url": "/circles-animation/static/js/main.71e77860.chunk.js"
   },
   {
     "revision": "4c3e1cba4e85821f8078",
     "url": "/circles-animation/static/js/1.4c3e1cba.chunk.js"
   },
   {
-    "revision": "9680bc6c5c878a84a8a6",
-    "url": "/circles-animation/static/css/main.48ea7b11.chunk.css"
+    "revision": "71e77860d03ec1b1224f",
+    "url": "/circles-animation/static/css/main.e858f7e4.chunk.css"
   },
   {
     "revision": "4c3e1cba4e85821f8078",
     "url": "/circles-animation/static/css/1.1dc4ad4c.chunk.css"
   },
   {
-    "revision": "c55b9adc65f7cce6580c7cbf1c21d415",
+    "revision": "38a86f12d8448a6eedefee30a516289c",
     "url": "/circles-animation/index.html"
   }
 ];
