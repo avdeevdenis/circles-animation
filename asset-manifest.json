@@ -1,12 +1,12 @@
 {
-  "main.css": "/circles-animation/static/css/main.0c4ddc0d.chunk.css",
-  "main.js": "/circles-animation/static/js/main.883b255d.chunk.js",
-  "static/css/1.5c985513.chunk.css": "/circles-animation/static/css/1.5c985513.chunk.css",
-  "static/js/1.896c735c.chunk.js": "/circles-animation/static/js/1.896c735c.chunk.js",
+  "main.css": "/circles-animation/static/css/main.4a9a9332.chunk.css",
+  "main.js": "/circles-animation/static/js/main.049db6a9.chunk.js",
+  "static/css/1.a87ce778.chunk.css": "/circles-animation/static/css/1.a87ce778.chunk.css",
+  "static/js/1.48bb5c82.chunk.js": "/circles-animation/static/js/1.48bb5c82.chunk.js",
   "runtime~main.js": "/circles-animation/static/js/runtime~main.759b1038.js",
-  "static/css/main.0c4ddc0d.chunk.css.map": "/circles-animation/static/css/main.0c4ddc0d.chunk.css.map",
-  "static/css/1.5c985513.chunk.css.map": "/circles-animation/static/css/1.5c985513.chunk.css.map",
+  "static/css/1.a87ce778.chunk.css.map": "/circles-animation/static/css/1.a87ce778.chunk.css.map",
+  "static/css/main.4a9a9332.chunk.css.map": "/circles-animation/static/css/main.4a9a9332.chunk.css.map",
   "index.html": "/circles-animation/index.html",
-  "precache-manifest.9fd3c23ae384f400318ecb978735e02a.js": "/circles-animation/precache-manifest.9fd3c23ae384f400318ecb978735e02a.js",
+  "precache-manifest.06197d60c4380499f1dbdbeae77e916d.js": "/circles-animation/precache-manifest.06197d60c4380499f1dbdbeae77e916d.js",
   "service-worker.js": "/circles-animation/service-worker.js"
 }
