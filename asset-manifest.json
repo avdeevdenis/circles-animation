@@ -1,12 +1,12 @@
 {
-  "main.css": "/circles-animation/static/css/main.9703b1ea.chunk.css",
-  "main.js": "/circles-animation/static/js/main.b5d0e73f.chunk.js",
+  "main.css": "/circles-animation/static/css/main.11b50865.chunk.css",
+  "main.js": "/circles-animation/static/js/main.ae930415.chunk.js",
   "static/css/1.cde83aa6.chunk.css": "/circles-animation/static/css/1.cde83aa6.chunk.css",
-  "static/js/1.9d020806.chunk.js": "/circles-animation/static/js/1.9d020806.chunk.js",
+  "static/js/1.8d671424.chunk.js": "/circles-animation/static/js/1.8d671424.chunk.js",
   "runtime~main.js": "/circles-animation/static/js/runtime~main.759b1038.js",
-  "static/css/main.9703b1ea.chunk.css.map": "/circles-animation/static/css/main.9703b1ea.chunk.css.map",
+  "static/css/main.11b50865.chunk.css.map": "/circles-animation/static/css/main.11b50865.chunk.css.map",
   "static/css/1.cde83aa6.chunk.css.map": "/circles-animation/static/css/1.cde83aa6.chunk.css.map",
   "index.html": "/circles-animation/index.html",
-  "precache-manifest.700e400e380c1a2fe6e6dce8235013b7.js": "/circles-animation/precache-manifest.700e400e380c1a2fe6e6dce8235013b7.js",
+  "precache-manifest.b4a350eb8301ac0827e8f8a904faf4d0.js": "/circles-animation/precache-manifest.b4a350eb8301ac0827e8f8a904faf4d0.js",
   "service-worker.js": "/circles-animation/service-worker.js"
 }
