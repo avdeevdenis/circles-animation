@@ -1,6 +1,6 @@
 # 🌟 Circles-animation 🌟
-![https://avdeevdenis.github.io/circles-animation/](readme/dots.png)
+![https://avdeevdenis.com/pages/circles-animation](readme/dots.png)
 
-[Here is an example](https://avdeevdenis.github.io/circles-animation/) 👆
+[Here is an example](https://avdeevdenis.com/pages/circles-animation) 👆
 
 This project was created with [Create React App](https://github.com/facebookincubator/create-react-app).
