@@ -10,7 +10,7 @@
     "rc-slider": "^8.7.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "2.0.3"
+    "react-scripts": "5.0.1"
   },
   "homepage": "https://avdeevdenis.github.io/circles-animation",
   "devDependencies": {
